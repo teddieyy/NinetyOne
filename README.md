@@ -19,7 +19,7 @@ For example:
 print(num2word("The database has 66723107008 records.")) prints:
 "sixty six billion seven hundred and twenty three million one hundred and seven thousand eight" where an 'and' is missing before the 'eight'. 
 
-When there is an invalid input, the programme outputs "invalid input" and "None"  as opposed to just "invalid input". 
+When there is an invalid input, the programme outputs "invalid input" and "None"  as opposed to just "invalid input" to the txt file. 
 
 ## Evolve possibilities 
 
@@ -28,7 +28,12 @@ Being able to convert floats to words. This would not require much more work, bu
 ## Instructions 
 
 ### If running from and to a txt file:
-
-
+1. Change the file  path to the desired path  (line 6). 
+2. Change the file  path to the desired path  (line 95). 
+3. This will read the txt file and add the number in words to that same txt file. It will also print the words to the console. 
 
 ### If running from and to the console:
+1. Comment out lines 6-7.
+2. Comment out lines 85-98.
+3. Initialise the function by running it. 
+4. In the console, input num2word("k"), where k is the string containing a number which you would like to convert to a  word. 
